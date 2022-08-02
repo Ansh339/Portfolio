@@ -1,0 +1,61 @@
+/* ======= Rest  ==========   */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, a{margin:0px; padding:0px;}
+
+img[src*="blank-profile-picture"]{margin-left: 25pc; border: 5px solid rgb(23, 2, 51); padding: 0%;}
+
+body{background-image:url(https://img1.goodfon.com/wallpaper/nbig/1/39/nastroeniya-kniga-knizhka-5644.jpg);  font-family:Arial, Helvetica, sans-serif;  font-size:15px; color:#4D4D4D;}
+#wrapper{margin:20px auto; width:999px;}
+.clear{clear:both;}
+
+/*   =====  Main and Sub headings   ======   */
+h1 { font-family: 'Yanone Kaffeesatz', arial, serif;  text-shadow: 2px 2px 2px #000; font-size:200px; color:rgb(15, 14, 14);}
+h2{font-family: 'Crimson Text', arial, serif; font-size:35px; color:#000; font-weight:bold;}
+h2 a, h2 a:visited, h2 a:active{font-family: 'Crimson Text', arial, serif; font-size:35px; color:#000; font-weight:normal; text-decoration:none; font-weight:bold;}
+h2:hover{color: white;}
+
+/*   =====  Top header   ======   */
+#header h1{color: rgb(255, 76, 5); text-align: center;}
+
+/*   =====  Introduction text   ======   */
+#intro{margin-top:10px;}
+#intro p{font-family: 'Crimson Text', arial, serif; font-size:45px; color: rgb(170, 0, 255); font-weight: bolder; text-align: justify;}
+
+
+/*   =====  Sections   ======   */
+.section{margin:30px 0px 30px 0px;}
+.section:after{ clear:both; display:block; content:"";}
+.section-title{background-image:url(images/section-title-bg.png); background-repeat:no-repeat; width:171px; height:41px; float:left;}
+.section-title:after{ clear:both; display:block; content:"";}
+.section-title p{padding:7px 0px 0px 7px; font-weight:bold;}
+.section-body{background-color:rgba(0, 0, 0, 0.742); width:94%; margin:-10px 0px 0px 10px; padding:0px 25px 25px 25px;}
+.section-body div{display:inline-table;}
+
+.item-template{border-bottom:1px dashed #cccccc; width:100%; margin-bottom:25px;  margin-top:25px; padding-bottom:25px;}
+.item-template:after{clear:both; display:block; content:"";}
+.section-body p{font-size:14px; line-height:22px; margin-bottom:25px;}
+.last-item{margin-bottom:0px; border-bottom:0px;}
+
+.skill-name{float:left;}
+.skill-rating{font-family: 'Crimson Text', arial, serif; font-size:55px; float:right; color: aquamarine; line-height:1px; padding-top:43px; border: 0px solid red;}
+
+.item-template-content{color: #fff;}
+.item-template-header-education{color: yellow;}
+.item-template-header-experience{color: red;}
+.item-template-header-skills{color: rgb(23, 169, 23);}
+.item-template-header-final{color: darkmagenta;}
+
+a.hidden, a.hidden:hover, a.hidden:visited, a.hidden:active{text-decoration:none; color:#4D4D4D;}
+
+.item-template-lessmargin{border-bottom:1px dashed #CCCCCC; width:100%; margin-bottom:25px;  margin-top:0px; padding-bottom:25px;}
+.item-template-skills:lessmargin{clear:both; display:block; content:"";}
+
+.your-details{float:right;}
+.your-details ul{list-style:none; margin-top:15px;}
+.your-details ul li{padding:9px 10px 7px 40px; height:25px; display:inline; background-image:url(images/icon-check.jpg); background-repeat:no-repeat; color: aquamarine; }
+
+.text-small{font-size:12px; color:#fff; text-transform:uppercase;}
+.first{margin-bottom:3px; padding-top:10px;}
+
+#education-section{border: 5px solid yellow;}
+#experience-section{border: 5px solid red;}
+#skills-section{border: 5px solid green;}
